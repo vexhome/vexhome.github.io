@@ -1,0 +1,127 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-image: url(../imgs/Download-Dark-Blue-Background-For-Free.jpg);
+    background-position: bottom 75% right 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+h1 {
+    font-size: 150%;
+	text-align: center;
+    text-transform: uppercase;
+    color:rgb(255, 255, 255);
+	margin: 35px 0 20px 0;
+    border-radius: 5px;
+    background-color: #343a40bb;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #7d95a0;
+}
+
+
+.form-row{
+    display: table;
+    width: 100%;
+}
+
+.col{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.form-control{
+    width: 100%;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.logo{
+    text-transform: uppercase;
+    color: #ffff;
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.main-menu a{
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    position: relative;
+    padding: 12px 36px;
+    margin: 10px auto;
+    border-radius: 40px;
+    background: rgba(125, 149, 160, 1);
+}
+
+.main-menu li{
+    list-style: none;
+    display: flex;
+    padding: 0 auto;
+}
+
+.description h1{
+    margin: 2% 0;
+}
+
+.description{
+    overflow-wrap: break-word;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 45%;
+    display: block;
+    float: left;
+    padding: 5px 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 0 2pt rgb(125, 149, 160);
+    margin-right: 5%;
+    margin-top: 2%
+}
+
+.container{
+    width: 45%;
+    display: block;
+    float: right;
+    margin-left: 5%;
+}
+
+main{
+    min-height: 75vh;
+    display: flex;
+    margin: auto 7.5%;
+}
