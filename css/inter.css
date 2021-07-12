@@ -32,6 +32,13 @@ nav{
     background-color: #7d95a0;
 }
 
+p{
+    background-color: rgba(0,0,0,.5);
+    border-radius: 5px;
+    padding: 5px 5px;
+    color:#ffff;
+    height: 85%;
+}
 
 .form-row{
     display: table;
